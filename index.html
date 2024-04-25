@@ -244,7 +244,8 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <form>
+          <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="099c0f8c-9e45-4564-923d-bc2a4a47408d">
             <div class="row mb-2 pt-2">
               <div class="col-12 col-lg-6">
                 <div class="value">
@@ -274,6 +275,7 @@
                 <textarea name="message" placeholder="Message"></textarea>
               </div>
             </div>
+            <div class="h-captcha" data-captcha="true"></div>
             <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
@@ -287,7 +289,7 @@
   <script src="http://rexbd.net/html/multicast/demo/assets/js/isotope.pkgd.min.js"></script>
   <script src="js/lightbox.js"></script>
   <script src="js/script.js"></script>
-
+  <script src="https://web3forms.com/client/script.js" async defer></script>
   </div>
 </body>
 
